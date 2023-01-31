@@ -16,7 +16,17 @@ const Home: NextPage = () => {
         <Nav />
         <SectionOne />
         <MobileFooter>
-          <Button />
+          <motion.div
+            initial={{ x: -500 }}
+            animate={{ x: 0 }}
+            transition={{
+              type: "spring",
+              stiffness: 260,
+              damping: 20,
+            }}
+          >
+            <Button />
+          </motion.div>
         </MobileFooter>
       </div>
     </div>
