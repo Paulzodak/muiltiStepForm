@@ -12,7 +12,6 @@ const Layout = () => {
   return (
     <div className="bg-cover  w-full h-[10rem] bg-[url('../assets/images/bg-mobile.svg')]">
       <nav> </nav>
-      <BasicCard />
     </div>
   );
 };
