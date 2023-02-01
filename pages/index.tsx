@@ -17,8 +17,8 @@ const Home: NextPage = () => {
         <SectionOne />
         <MobileFooter>
           <motion.div
-            initial={{ x: -500 }}
-            animate={{ x: 0 }}
+            initial={{ scale: 0 }}
+            animate={{ scale: 1 }}
             transition={{
               type: "spring",
               stiffness: 260,

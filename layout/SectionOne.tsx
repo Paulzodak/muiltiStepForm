@@ -7,8 +7,8 @@ import { motion } from "framer-motion";
 export default function SectionOne(props: ISectionOneProps) {
   return (
     <motion.div
-      initial={{ rotate: 180, scale: 0 }}
-      animate={{ rotate: 0, scale: 1 }}
+      initial={{ scale: 0 }}
+      animate={{ scale: 1 }}
       transition={{
         type: "spring",
         stiffness: 260,
